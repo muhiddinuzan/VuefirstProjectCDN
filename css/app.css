@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+* {
+  font-family: 'Montserrat', sans-serif;
+  background-color: black;
+}
+.text-center {
+  text-align: center;
+  color:white;
+}
+
+.healthbar {
+  width: 100%;
+  height: 40px;
+  background-color: #eee;
+  margin: auto;
+  transition: width 500ms;
+}
+
+.controls,
+.log {
+  margin-top: 30px;
+  text-align: center;
+  padding: 10px;
+  border: 5px solid #ccc;
+  box-shadow: 0px 3px 6px #ccc;
+}
+
+.turn {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.log ul {
+  list-style: none;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.log ul li {
+  margin: 5px;
+}
+
+.log ul .player-turn {
+  color: blue;
+  background-color: #e4e8ff;
+}
+
+.log ul .monster-turn {
+  color: red;
+  background-color: #ffc0c1;
+}
+
+button {
+  font-size: 20px;
+  background-color: #eee;
+  padding: 12px;
+  box-shadow: 0 1px 1px black;
+  margin: 10px;
+  font-weight: bold;
+}
+
+#start-game {
+  background-color: #001a02;
+  color:white;
+}
+
+
+#attack {
+  background-color: #be1000;
+}
+#special-attack {
+  background-color: #770000;
+}
+
+#heal {
+  background-color: #4063d6;
+}
+
