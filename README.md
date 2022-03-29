@@ -1,2 +1,1 @@
-<img src="imageone.jpg" width="auto">
-<img src="imagetwo.jpg" width="auto">
+<img src="img/game_image.jpg" width="auto">
