@@ -29,7 +29,7 @@ new Vue({
             var point = Math.ceil(Math.random() * 25);
             this.me_health += point;
             this.monster_attack();
-            this.add_to_log({turn : "Player", text : "İlk Yardım (" + point + ")"});
+            this.add_to_log({turn : "Player", text : "Ilk Yardim (" + point + ")"});
         },
 
         give_up : function() {
